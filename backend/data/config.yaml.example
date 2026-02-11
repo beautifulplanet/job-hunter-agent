@@ -1,0 +1,19 @@
+# Job Hunter AI - Configuration
+# Copy this file to config.yaml and fill in your actual info.
+
+candidate:
+  full_name: "Jane Doe"
+  address: "123 Main Street Apt 4B New York NY 10001"
+  sensitive_urls:
+    - term: "linkedin.com/in/jane-doe"
+      placeholder: "LINKEDIN_URL"
+    - term: "github.com/janedoe"
+      placeholder: "GITHUB_URL"
+
+output:
+  default_format: "pdf"
+  default_template: "modern"
+
+resumes:
+  primary: "Your_Resume.pdf"
+  old_resume_max_chars: 2000

@@ -1,0 +1,27 @@
+# Personal data - NEVER commit
+output/
+resumes/
+backend/data/config.yaml
+backend/data/user_profile.json
+*.pdf
+!backend/lib/*.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Test artifacts
+test_resume_*.pdf

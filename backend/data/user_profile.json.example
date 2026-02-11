@@ -1,0 +1,29 @@
+{
+  "personal_info": {
+    "name": "",
+    "email": "",
+    "phone": "",
+    "address": "",
+    "linkedin": "",
+    "portfolio": ""
+  },
+  "certifications": [
+    {
+      "name": "Example Certification",
+      "issuer": "Example University",
+      "date": "Jan 2025",
+      "credential_id": "ABC123"
+    }
+  ],
+  "specializations": [
+    {
+      "name": "Example Specialization",
+      "issuer": "Example Provider"
+    }
+  ],
+  "skills_from_certs": [
+    "Project Management",
+    "Python",
+    "Data Analytics"
+  ]
+}
